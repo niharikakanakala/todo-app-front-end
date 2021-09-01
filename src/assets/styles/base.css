@@ -1,0 +1,6 @@
+@import './resets/base.reset.less';
+
+:root {
+    --color-light-gray:#f3f3f3;
+    --body-container-normal-background-color:var(--color-light-gray);
+  }
