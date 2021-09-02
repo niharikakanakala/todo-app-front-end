@@ -1,4 +1,4 @@
-@import '../../assets/styles/utils/media-queries.less';
+
 .list-item {
   display:flex;
   justify-content:space-between;
@@ -12,10 +12,4 @@
   white-space:normal !important;
   max-width:115px;
   word-break:break-all;
-}
-@media  {
-  .list-item .todo-item .todo-tag { max-width:500px; }
-}
-@media  {
-  .list-item .todo-item .todo-tag { max-width:100%; }
 }

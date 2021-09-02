@@ -1,4 +1,4 @@
-@import './resets/base.reset.less';
+@import './resets/base.reset.css';
 
 :root {
     --color-light-gray:#f3f3f3;

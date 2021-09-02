@@ -3,7 +3,8 @@ import { Tooltip, Tag, List, Button, Popconfirm, Switch } from "antd";
 import { CloseOutlined, CheckOutlined } from "@ant-design/icons";
 
 import "./styles.css";
-import { ITodo } from "store/todo/models/todo.model";
+
+import { ITodo } from "../../store/todo/models/todo.models";
 
 interface ITodoItemProps {
   todo: ITodo;

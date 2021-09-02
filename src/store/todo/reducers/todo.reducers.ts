@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
 import { TODO_ACTION_TYPES } from "../constants";
-import { ITodo } from "../models/todo.model";
+import { ITodo } from "../models/todo.models";
 import { TodoActionTypes } from "../actions/todo.actions.types";
 import { v1 as uuidV1 } from "uuid";
 

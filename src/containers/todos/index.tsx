@@ -1,15 +1,21 @@
 import React from "react";
 import { Row, Col, Card, PageHeader } from "antd";
 
-import { ITodo } from "store/todo/models/todo.model";
+import { ITodo } from "../../store/todo/models/todo.models";
 import { useDispatch, useSelector } from "react-redux";
-import { addTodo, removeTodo, toggleTodoStatus } from "store/todo/actions";
-import { RootState } from "store/todo/reducers";
-import { AddTodoForm } from "components/AddTodoForm";
-import { TodoList } from "components/TodoList";
+import {
+  addTodo,
+  removeTodo,
+  toggleTodoStatus,
+} from "../../store/todo/actions";
+//import { RootState } from "store/todo/reducers";
+import { RootState } from "../../store/todo/reducers";
+//import { AddTodoForm } from "components/AddTodoForm";
+import { AddTodoForm } from "../../components/AddTodoForm";
+import { TodoList } from "../../components/TodoList";
 import { message } from "antd";
 
-import "./styles.less";
+import "./styles.css";
 
 interface ITodosContainerProps {}
 

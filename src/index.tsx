@@ -1,6 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { render } from "react-dom";
 import "./index.css";
-import App from "./App";
+import "./assets/styles/base.css";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+import { store, persistor } from "./store/app.store";
+
+import { App } from "./containers/app";
+
+const targetHTMLElement = document.getElementById("root");
+
+render(<App store={store} storePersistor={persistor} />, targetHTMLElement);

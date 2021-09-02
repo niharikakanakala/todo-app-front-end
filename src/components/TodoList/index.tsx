@@ -2,8 +2,11 @@ import React from "react";
 
 import { List } from "antd";
 
-import { ITodo } from "store/todo/models/todo.model";
-import { TodoItem } from "components/TodoItem";
+//import { ITodo } from "store/todo/models/todo.model";
+import { ITodo } from "../../store/todo/models/todo.models";
+//import { TodoItem } from "../TodoItem";
+//import { TodoItem } from "components/TodoItem";
+import { TodoItem } from "../../components/TodoItem";
 
 interface ITodoListProps {
   todos: ITodo[];

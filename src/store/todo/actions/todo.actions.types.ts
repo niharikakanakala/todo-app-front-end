@@ -1,6 +1,5 @@
-import { TODO_ACTION_TYPES } from "store/todo/constants";
-import { ITodo } from "store/todo/models/todo.model";
-
+import { TODO_ACTION_TYPES } from "../constants/todo.constants";
+import { ITodo } from "../models/todo.models";
 interface IAddTodoAction {
   type: typeof TODO_ACTION_TYPES.ADD_TODO_SUCCESS;
   payload: ITodo;
