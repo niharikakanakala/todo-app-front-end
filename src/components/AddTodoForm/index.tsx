@@ -3,8 +3,8 @@ import { Form, Row, Col, Button, Input } from "antd";
 import { PlusCircleFilled } from "@ant-design/icons";
 
 import "./styles.css";
-import { ITodo } from "store/todo/models/todo.model";
-
+//import { ITodo } from "store/todo/models/todo.model";
+import { ITodo } from "../../store/todo/models/todo.models";
 interface IAddTodoFormProps {
   onFormSubmit: (todo: ITodo) => void;
 }
